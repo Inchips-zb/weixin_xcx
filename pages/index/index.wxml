@@ -1,0 +1,4 @@
+<view class="title">Who is Bingo ?</view>
+<button wx:if="{{!imgHidden}}"  class="moreBtn" bindtap="onClick">{{buttonText}}</button>
+<view wx:if="{{imgHidden}}" class="info">Bingo就职于某某公司，现场应用工程师，是一位优秀的搬砖人才，大家像他学习！</view>
+<image wx:if="{{imgHidden}}" mode="widthFix" class="img" src="../../img/bingo.jpg"></image>
